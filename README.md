@@ -36,5 +36,5 @@ In this repository, I present a multiple-script-interconnected, minimalistic fra
 
 ### Suggestions
 -	Inclusion of [data.table](https://github.com/Rdatatable/data.table) in Cleaning script
--	Creating Cleaning and Analysis scripts automatically
+-	Creating Cleaning and Analysis scripts automatically with user's prompt
 -	Storing (generalized) functions as R packages
