@@ -23,7 +23,7 @@ In this repository, I present a multiple-script-interconnected, minimalistic fra
 -	Store current progress in terms of timestamp for future references
 
 ### Features
-### User-Friendliness
+#### User-Friendliness
 -	User can quickly make modification in one script, instead of one section in a lengthy script
 -	I use ‘section’ as [R’s in-built feature](https://support.posit.co/hc/en-us/articles/200484568-Code-Folding-and-Sections-in-the-RStudio-IDE) for dividing codes into sections (user can click the option on the bottom left with a brown hashtag to quickly jump from one section to another; user can also fold codes within a section for better viewing and editing)
 
