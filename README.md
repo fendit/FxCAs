@@ -2,9 +2,9 @@
 ![FxCA](https://user-images.githubusercontent.com/37236930/226106633-57a181b3-12c4-4c3a-90c0-78e3632fbde5.png)
 
 ### Table of Contents
-* [Introduction](https://github.com/fendit/FxCA/edit/main/README.md#introduction)
-* [Features](https://github.com/fendit/FxCA/edit/main/README.md#features)
-* [Suggestions](https://github.com/fendit/FxCA/edit/main/README.md#suggestions)
+* [Introduction](https://github.com/fendit/FxCA#introduction)
+* [Features](https://github.com/fendit/FxCA#features)
+* [Suggestions](https://github.com/fendit/FxCA#suggestions)
 
 ### Introduction
 In this repository, I present a multiple-script-interconnected, minimalistic framework that facilitates data cleaning and analysis in R. Intuitively, this framework (which I called ‘FxCA’, or ‘Functions, Cleaning and Analysis’) is based on the idea of ‘Division of Labor’, that is, each of the three R scripts serves one simple purpose (listed below): 
