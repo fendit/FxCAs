@@ -1,4 +1,4 @@
-# Functions, Cleaning and Analysis (FxCA)
+# R - Functions, Cleaning and Analysis (FxCA)
 ![FxCA](https://user-images.githubusercontent.com/37236930/226106633-57a181b3-12c4-4c3a-90c0-78e3632fbde5.png)
 
 ### Table of Contents
