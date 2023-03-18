@@ -32,7 +32,7 @@ In this repository, I present a multiple-script-interconnected, minimalistic fra
 
 #### Storage and Retrieval for Scripts and Data
 -	Here I store Data as .Rdata based on the time it was stored. It allows user to go back easily to previous .RData for references
--	For script retrieval, the cleaning and analysis script retrieves the latest version of fx scripts in the directory automatically
+-	For scripts retrieval, the cleaning and analysis script retrieves the latest version of fx scripts in the directory automatically
 
 ### Suggestions
 -	Inclusion of [data.table](https://github.com/Rdatatable/data.table) in Cleaning script
