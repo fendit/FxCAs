@@ -7,4 +7,7 @@ In this repository, I present a multiple-script-interconnected, minimalistic fra
 ### What's New
 
 #### sharing.R
-- Allows user to share all three R scripts and other files from a local directory to one or more remote directories automatically with custom commands
+- Allow user to share all three R scripts and other files from a local directory to one or more remote directories automatically with custom commands
+
+#### functions.R
+- Allow user to load customized functions when separate R scripts (cleaning.R or analysis.R) are used
