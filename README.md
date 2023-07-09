@@ -35,6 +35,7 @@ In this repository, I present a multiple-script-interconnected, minimalistic fra
 -	For scripts retrieval, the cleaning and analysis script retrieves the latest version of fx scripts in the directory automatically
 
 ### Suggestions
+- Using R.project when applying this framework for convenience and efficiency
 -	Inclusion of [data.table](https://github.com/Rdatatable/data.table) in Cleaning script
 -	Creating Cleaning and Analysis scripts automatically with user's prompt
 -	Storing (generalized) functions as R packages
