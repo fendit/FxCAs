@@ -1,47 +1,10 @@
 # R - Functions, Cleaning, Analysis and Sharing (FxCAs)
 ![v2 0](https://github.com/fendit/FxCAs/assets/37236930/70916215-32f1-4b89-bae0-a907e50d0c9b)
 
-
-### Table of Contents
-* [Introduction](https://github.com/fendit/FxCA#introduction)
-* [Features](https://github.com/fendit/FxCA#features)
-* [Suggestions](https://github.com/fendit/FxCA#suggestions)
-
 ### Introduction
-In this repository, I present a multiple-script-interconnected, minimalistic framework that facilitates data cleaning and analysis in R. This framework (which I called ‘Functions, Cleaning and Analysis’, or ‘FxCA’) is based on the idea of ‘Division of Labor’, that is, each of the three R scripts serves one simple purpose (listed below): 
+In this repository, I present a multiple-script-interconnected, minimalistic framework that facilitates data cleaning and analysis in R. This framework (which I called ‘Functions, Cleaning, Analysis and Sharing’, or ‘FxCAs’) is based on the idea of ‘Division of Labor’. Please visit [v1.0](https://github.com/fendit/FxCAs/tree/v1.0) for more information.
 
-#### Functions
--	Contains all custom functions and R packages used in Cleaning and Analysis
+### What's New
 
-#### Cleaning
--	Contains codes that serve for data wrangling
--	Export data for Analysis
--	Store current progress in terms of timestamp for future references
-
-#### Analysis 
--	Contains codes for analyzing data
--	Export data for presentation
--	Store current progress in terms of timestamp for future references
-
-#### Sharing (v2.0)
-- Allows user to share all three R scripts and other files from a local directory to one or more remote directories
-
-### Features
-#### User-Friendliness
--	User can quickly make modification in one script, instead of one section in a lengthy script
--	I use ‘section’ as [R’s in-built feature](https://support.posit.co/hc/en-us/articles/200484568-Code-Folding-and-Sections-in-the-RStudio-IDE) for dividing codes into sections (user can click the option on the bottom left with a brown hashtag to quickly jump from one section to another; user can also fold codes within a section for better viewing and editing)
-
-#### Automatic Update among R scripts and RData
--	The lines under ‘prerequisite’ section in Cleaning and Analysis update the prerequisite automatically, such as which operating system it is in currently (here I specify between MacOS and Windows; user need to input them manually for the first time), importing the latest version of fx script, loading the latest version of cleaned data etc
-
-#### Storage and Retrieval for Scripts and Data
--	Here I store Data as .Rdata based on the time it was stored. It allows user to go back easily to previous .RData for references
--	For scripts retrieval, the cleaning and analysis script retrieves the latest version of fx scripts in the directory automatically (see [v1.0](https://github.com/fendit/FxCAs/tree/v1.0) for an example)
-
-#### Clear segregations between workspaces (v2.0)
-- Users can share the latest files with other parties automatically
-
-### Suggestions
--	Inclusion of [data.table](https://github.com/Rdatatable/data.table) in Cleaning script
--	Creating Cleaning and Analysis scripts automatically with user's prompt
--	Storing (generalized) functions as R packages
+#### sharing.R
+- Allows user to share all three R scripts and other files from a local directory to one or more remote directories automatically with custom commands
