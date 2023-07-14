@@ -2,10 +2,7 @@
 
 # Prerequisite ------------------------------------------------------------
 
-# Import libraries and customized functions via functions.R
-Cleaning <- TRUE 
-source(file = "functions.R")
-rm(Cleaning)  # Remove unnecessary items
+source(file = "functions.R")  # Import libraries and customized functions via functions.R
 
 
 # Data Import & Wrangling -------------------------------------------------

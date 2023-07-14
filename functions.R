@@ -7,7 +7,7 @@ print("Loading libraries and customized functions - please wait.")
 
 # Load libraries ----------------------------------------------------------
 
-libs <- c('plyr', 'dplyr', 'openxlsx', 'ggplot2')  # Libraries used
+libs <- c('plyr', 'dplyr', 'openxlsx', 'ggplot2', 'rstudioapi')  # Libraries used
 for (lib in libs) if (!lib %in% rownames(installed.packages())) install.packages(lib) # Check libraries used are installed or not
 lapply(libs, require, character.only = TRUE) # Load libraries
 rm(lib, libs) # Remove unnecessary items
@@ -15,7 +15,7 @@ rm(lib, libs) # Remove unnecessary items
 
 # Customized functions for cleaning.R -------------------------------------
 
-if (Cleaning){
+if (basename(documentPath())=='cleaning.R'){
   # First function for cleaning.R
   cleaning.foo1 <- function(){}
   
@@ -29,7 +29,7 @@ if (Cleaning){
 
 # Customized functions for analysis.R -------------------------------------
 
-if (Analysis){
+if (basename(documentPath())=='analysis.R'){
   # First function for analysis.R
   analysis.foo1 <- function(){}
   

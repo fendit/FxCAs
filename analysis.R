@@ -2,10 +2,7 @@
 
 # Prerequisite ------------------------------------------------------------
 
-# Import libraries and customized functions via functions.R
-Analysis <- TRUE
-source(file = "functions.R")
-rm(Analysis)  # Remove unnecessary items
+source(file = "functions.R")  # Import libraries and customized functions via functions.R
 
 # Import the latest version of cleaned RData
 load(file = tail(rownames(file.info(list.files(path = "data/_RData/cleaning", pattern = "cleaning_", full.names = T))), n = 1))
